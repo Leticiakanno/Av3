@@ -1,113 +1,112 @@
 export const perguntas = [
     {
-        enunciado: "1. Qual é a sua refeição favorita do dia?",
+        enunciado: "1. Qual é o seu gênero de filme favorito?",
         alternativas: [
             {
-                texto: "A) Café da manhã",
+                texto: "A) Ação",
                 afirmacao: [
-                    " O Tradicionalista. Você é alguém que valoriza a rotina e gosta de conforto. Na culinária, isso se reflete em sua preferência por refeições familiares e sabores clássicos. Você gosta de manter as coisas simples e tende a ser uma pessoa confiável e calma."
+                    "O Aventureiro. Você adora emoção e adrenalina, tanto no cinema quanto na vida real. Gosta de histórias cheias de ação, reviravoltas e heróis destemidos. Sua personalidade é dinâmica e você está sempre em busca de novas experiências e desafios."
                 ],
                 proxima: 1,
             },
             {
-                texto: "B) Almoço",
+                texto: "B) Comédia",
                 afirmacao: [
-                    "O Aventureiro. Você adora experimentar novos sabores e é conhecido por ser curioso e ousado na vida e na cozinha. Seja um prato novo ou uma combinação inusitada de temperos, você não tem medo de se arriscar. Sua personalidade é extrovertida e aberta a novidades."
+                    "O Sociável. Você valoriza o bom humor e adora se divertir. Filmes de comédia são a sua escolha para relaxar e rir. Sua personalidade é alegre e você gosta de estar cercado de amigos e momentos leves."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "2. Qual tipo de cozinha você prefere?",
+        enunciado: "2. Qual é seu tipo de filme preferido para uma maratona?",
         alternativas: [
             {
-                texto: "Brasileira (feijoada, churrasco)",
+                texto: "Séries de filmes (como 'Harry Potter', 'Senhor dos Anéis')",
                 afirmacao: [
-                    "O Tradicionalista. Você é alguém que valoriza a rotina e gosta de conforto. Na culinária, isso se reflete em sua preferência por refeições familiares e sabores clássicos. Você gosta de manter as coisas simples e tende a ser uma pessoa confiável e calma.",
-    
+                    "O Contador de Histórias. Você aprecia narrativas longas e complexas que permitem um mergulho profundo em universos ricos e detalhados. Você é alguém que valoriza a continuidade e o desenvolvimento ao longo do tempo."
                 ],
                 proxima: 3,
             },
             {
-                texto: " Italiana (massas, pizzas)",
+                texto: "Filmes independentes e alternativos",
                 afirmacao: [
-                    "O Equilibrado. Você busca equilíbrio em tudo o que faz, e isso se reflete no seu gosto pela culinária. Gosta de refeições bem preparadas, com sabores harmônicos e de qualidade. Na vida, você é uma pessoa que busca estabilidade e harmonia, tanto no trabalho quanto nas relações."
+                    "O Criativo. Você gosta de explorar filmes únicos e inovadores que oferecem uma perspectiva diferente. Sua personalidade é aberta a novas ideias e você busca experiências cinematográficas que desafiem o convencional."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Quando você vai a um restaurante, você:",
+        enunciado: "3. Quem é seu diretor de cinema favorito?",
         alternativas: [
             {
-                texto: "Sempre pede o mesmo prato",
+                texto: "Steven Spielberg",
                 afirmacao: [
-                    "O Tradicionalista. Você é alguém que valoriza a rotina e gosta de conforto. Na culinária, isso se reflete em sua preferência por refeições familiares e sabores clássicos. Você gosta de manter as coisas simples e tende a ser uma pessoa confiável e calma."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Escolhe algo que viu nas redes sociais",
-                afirmacao: [
-                    " O Equilibrado. Você busca equilíbrio em tudo o que faz, e isso se reflete no seu gosto pela culinária. Gosta de refeições bem preparadas, com sabores harmônicos e de qualidade. Na vida, você é uma pessoa que busca estabilidade e harmonia, tanto no trabalho quanto nas relações."
+                    "O Clássico. Você aprecia filmes que são bem construídos e têm um impacto duradouro. Spielberg é conhecido por suas narrativas envolventes e emocionantes, e você tende a gostar de histórias que são tanto cativantes quanto memoráveis."
                 ],
                 proxima: 4,
+            },
+            {
+                texto: "Quentin Tarantino",
+                afirmacao: [
+                    "O Inovador. Você gosta de filmes que desafiam as convenções e apresentam diálogos afiados e roteiros ousados. Tarantino é conhecido por seu estilo único e sua abordagem não convencional ao cinema, o que ressoa com sua personalidade criativa e audaciosa."
+                ],
+                proxima: 5,
             },
         ]
     },
     {
-        enunciado: " Qual é sua sobremesa favorita?",
+        enunciado: "4. Qual é o seu tipo de final de filme preferido?",
         alternativas: [
             {
-                texto: " Sorvete",
+                texto: "Final feliz e satisfatório",
                 afirmacao: [
-                    "O Tradicionalista. Você é alguém que valoriza a rotina e gosta de conforto. Na culinária, isso se reflete em sua preferência por refeições familiares e sabores clássicos. Você gosta de manter as coisas simples e tende a ser uma pessoa confiável e calma."
+                    "O Otimista. Você gosta de ver histórias que terminam bem e proporcionam uma sensação de conclusão positiva. Filmes com finais felizes refletem sua visão positiva da vida e sua preferência por histórias que deixam uma impressão alegre."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Pudim",
+                texto: "Final aberto e ambíguo",
                 afirmacao: [
-                    " O Intenso. Seus gostos são fortes e definidos, tanto na culinária quanto na vida. Você gosta de viver tudo com intensidade e paixão. Temperos marcantes e pratos ousados chamam sua atenção, assim como situações desafiadoras e emoções profundas."
+                    "O Reflexivo. Você aprecia filmes que deixam espaço para interpretação e que provocam reflexão. Finais abertos permitem que você use sua imaginação e analise as diferentes possibilidades e significados, o que se alinha com sua natureza curiosa e analítica."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Qual tipo de cozinha você prefere?",
+        enunciado: "5. Qual é o tipo de filme que você mais gosta de assistir com amigos?",
         alternativas: [
             {
-                texto: "Japonesa (sushi, sashimi)",
+                texto: "Filmes de terror",
                 afirmacao: [
-                    "O Aventureiro. Você adora experimentar novos sabores e é conhecido por ser curioso e ousado na vida e na cozinha. Seja um prato novo ou uma combinação inusitada de temperos, você não tem medo de se arriscar. Sua personalidade é extrovertida e aberta a novidades."
+                    "O Aventureiro Social. Você gosta de experiências intensas e emocionantes, e filmes de terror são perfeitos para isso. Assistir a filmes assustadores com amigos proporciona uma experiência compartilhada cheia de risos nervosos e adrenalina."
                 ],
-                proxima: 7,
+                proxima: 6,
             },
             {
-                texto: "Mexicana (tacos, nachos)",
+                texto: "Comédias românticas",
                 afirmacao: [
-                    "O Intenso. Seus gostos são fortes e definidos, tanto na culinária quanto na vida. Você gosta de viver tudo com intensidade e paixão. Temperos marcantes e pratos ousados chamam sua atenção, assim como situações desafiadoras e emoções profundas.O que você achou desse formato? Quer ajustar algo no quiz?"
+                    "O Romântico. Você gosta de filmes que combinam humor e romance, proporcionando uma experiência leve e agradável. Assistir a comédias românticas com amigos é uma forma de relaxar e aproveitar momentos divertidos e encantadores."
                 ],
-                proxima: 8,
+                proxima: 7,
             },
         ]
     },
     {
-        enunciado: "Como você gosta de temperar a comida?",
+        enunciado: "6. Qual é o seu ator ou atriz favorito?",
         alternativas: [
             {
-                texto: " Leve, com poucas ervas e sal",
+                texto: "Leonardo DiCaprio",
                 afirmacao: [
-                    "O Aventureiro. Você adora experimentar novos sabores e é conhecido por ser curioso e ousado na vida e na cozinha. Seja um prato novo ou uma combinação inusitada de temperos, você não tem medo de se arriscar. Sua personalidade é extrovertida e aberta a novidades."
+                    "O Versátil. Você aprecia atuações profundas e complexas, e Leonardo DiCaprio é conhecido por seu talento em interpretar uma ampla gama de personagens. Sua preferência por atores versáteis reflete sua própria diversidade de interesses e habilidades."
                 ],
             },
             {
-                texto: "Bem temperada, com bastante especiarias",
+                texto: "Meryl Streep",
                 afirmacao: [
-                    "O Aventureiro. Você adora experimentar novos sabores e é conhecido por ser curioso e ousado na vida e na cozinha. Seja um prato novo ou uma combinação inusitada de temperos, você não tem medo de se arriscar. Sua personalidade é extrovertida e aberta a novidades."
+                    "O Elegante. Você valoriza a habilidade e a sofisticação, e Meryl Streep é uma atriz renomada por suas atuações refinadas e sofisticadas. Sua escolha reflete um gosto por qualidade e profundidade no cinema."
                 ],
             },
         ]
